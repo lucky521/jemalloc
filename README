@@ -15,6 +15,9 @@ The COPYING file contains copyright and licensing information.
 The INSTALL file contains information on how to configure, build, and install
 jemalloc.
 
+
 The ChangeLog file contains a brief summary of changes for each release.
 
-URL: http://www.canonware.com/jemalloc/
+官方网站URL: http://www.canonware.com/jemalloc/
+
+jemalloc是对malloc更好的重构。避免内存碎片，支持可扩展的并发。2005年jemalloc首次应用在FreeBSD的libc allocator中，随后在很多应用程序中使用。2010年jemalloc开始支持Heap profiling，与Valgrind整合，加入监控hook。安装方法见INSTALL。
